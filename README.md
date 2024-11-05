@@ -156,7 +156,7 @@ http://localhost:8080/swagger-ui.html
 
 ### Screenshots
 
-*(Add screenshots of the frontend here to showcase key functionalities and UI design)*
+![alt text](<./screenshots/Captura de tela 2024-11-04 005038.png>) ![alt text](<./screenshots/Captura de tela 2024-11-05 000521.png>) ![alt text](<./screenshots/Captura de tela 2024-11-05 000630.png>)
 
 ---
 
