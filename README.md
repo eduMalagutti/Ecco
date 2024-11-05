@@ -5,12 +5,9 @@
 
 ECCO is a comprehensive marketplace platform that connects homeowners and individuals seeking household services with qualified service providers. Developed as a trainee project for Cati Jr in 2024, ECCO aims to facilitate reliable and seamless service booking and management between service providers (such as plumbers, electricians, cleaners) and customers in need of household services.
 
-### Purpose
+## Disclaimer
 
-- **Service Marketplace**: Connects customers with various service providers for household needs.
-- **Quality Assurance**: Implements verification systems to ensure trustworthy service delivery.
-- **Seamless Booking**: Manages the full booking lifecycle, from initial request to service completion and review.
-- **Trust Building**: Includes a review and rating system to enhance trust and reliability on the platform.
+This project is only partially finished due to the trainee project deadline, maybe it will be finished later. The backend is finished, the frontend is lacking some pages.
 
 ---
 
@@ -23,15 +20,17 @@ ECCO is a comprehensive marketplace platform that connects homeowners and indivi
 
 ## Backend
 
+## Authors
+
+- **Eduardo Souza Malagutti**
+- **Renan Zago**
+
 ### Core Features
 - User authentication and role-based access control
 - Service provider profiles with verification system
 - Comprehensive service listing and search functionality
 - Reservation management with status tracking
 - Review and rating system for service quality assurance
-- Secure payment integration (planned)
-
-The project is built using Spring Boot and incorporates modern security practices, and authentication.
 
 ## Stack
 - Java 17
@@ -115,6 +114,11 @@ http://localhost:8080/swagger-ui.html
 
 ## Frontend
 
+
+## Authors
+
+- 
+
 ### Core Features
 
 - **User Registration and Authentication**: Allows new users to create accounts and returning users to log in securely.
@@ -157,12 +161,5 @@ http://localhost:8080/swagger-ui.html
 ### Screenshots
 
 ![alt text](<./screenshots/Captura de tela 2024-11-04 005038.png>) ![alt text](<./screenshots/Captura de tela 2024-11-05 000521.png>) ![alt text](<./screenshots/Captura de tela 2024-11-05 000630.png>)
-
----
-
-## Authors
-
-- **Eduardo Souza Malagutti**
-- **Renan Zago**
 
 ---
