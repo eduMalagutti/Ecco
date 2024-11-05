@@ -1,11 +1,11 @@
 
 # ECCO
 
-## Description
+### Description
 
 ECCO is a comprehensive marketplace platform that connects homeowners and individuals seeking household services with qualified service providers. Developed as a trainee project for Cati Jr in 2024, ECCO aims to facilitate reliable and seamless service booking and management between service providers (such as plumbers, electricians, cleaners) and customers in need of household services.
 
-## Disclaimer
+### Disclaimer
 
 This project is only partially finished due to the trainee project deadline, maybe it will be finished later. The backend is finished, the frontend is lacking some pages.
 
@@ -14,11 +14,9 @@ This project is only partially finished due to the trainee project deadline, may
 - **backend**: REST API developed with Spring Boot, providing server-side logic, API routes, and data processing.
 - **frontend**: React-based application that delivers a user-friendly interface for customers and service providers.
 
----
-
 ## Backend
 
-## Authors
+### Authors
 
 - **Eduardo Souza Malagutti**
 - **Renan Zago**
@@ -30,7 +28,7 @@ This project is only partially finished due to the trainee project deadline, may
 - **Reservation Management**: Enables users to book services, view upcoming reservations, and manage past bookings.
 - **User Review System**: Allows customers to rate and review services after completion to ensure quality and reliability.
 
-## Stack
+### Stack
 - Java 17
 - Spring Boot 3.3.0
 - Spring Security + JWT
@@ -42,13 +40,14 @@ This project is only partially finished due to the trainee project deadline, may
 - Lombok
 - Spring HATEOAS
 
-## Requirements
+## Installation
+
+### Requirements
 - JDK 17
 - Maven
 - PostgreSQL
 - SMTP Server (Gmail)
 
-## Installation
 ### Cloning the Repository
 ```bash
 git clone https://gitlab.com/cati-jr/trainees-2024/squad-2/backend.git
@@ -108,14 +107,13 @@ Complete API documentation is available through Swagger UI:
 http://localhost:8080/swagger-ui.html
 ```
 
----
-
 ## Frontend
 
+### Authors
 
-## Authors
-
-- 
+- Heitor
+- Lucas
+- Nicolas
 
 ### Core Features
 
