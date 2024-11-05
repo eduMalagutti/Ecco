@@ -9,8 +9,6 @@ ECCO is a comprehensive marketplace platform that connects homeowners and indivi
 
 This project is only partially finished due to the trainee project deadline, maybe it will be finished later. The backend is finished, the frontend is lacking some pages.
 
----
-
 ## Project Structure
 
 - **backend**: REST API developed with Spring Boot, providing server-side logic, API routes, and data processing.
