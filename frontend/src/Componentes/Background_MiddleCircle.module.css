@@ -1,0 +1,22 @@
+.body {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: linear-gradient( to bottom, #3A5A40, #263A2A);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.containerCircles {
+    position: fixed;
+    top: calc(50% + 101px - 50px);
+    right: 0;
+    transform: translate(0, -50%);
+}
+
+.circles {
+    width: 500px;
+    height: 500px;
+}

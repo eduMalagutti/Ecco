@@ -1,0 +1,26 @@
+:root {
+    --white: #ffffff;
+
+    --black: #252525;
+
+    --green-100:#f1faee; 
+    --green-300:#9acda3; 
+    --green-400:#87ae8e;
+    --green-500:#5f8666;
+    --green-600:#4a664f;
+    --green-700:#3e5943;
+    --green-800:#252e24;
+
+    --tan:#f3fae0;
+
+    --red:#ff0000;
+}
+
+
+
+
+
+body, input, textarea, button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}

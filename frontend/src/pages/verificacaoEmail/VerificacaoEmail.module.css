@@ -1,0 +1,62 @@
+.body{
+    width: 100vw;
+    min-height: 100vh;
+    background: #3a5a40;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+
+
+.box {
+    width: 850px;
+    height: 491px;
+    background: var(--tan);
+    box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25), 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25), 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    margin-top: 12.4375rem;
+    font-size: 1.44rem;
+    line-height: 1,96125rem;
+    font-weight: 400;
+    width: 389px;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    color: var(--green-800);
+}
+
+.botao {
+    display: flex;
+    width: 19.9375rem;
+    height: 3.9375rem;
+    margin-top: 7.5rem;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.textbutton  {
+    width: 11.9375rem;
+    height: 1.9375rem;
+    padding: 1rem 4rem 1rem 4rem;
+    font-size: 1.44rem;
+    font-weight: 400;
+    line-height: 1.96125rem;
+    text-align: justified;
+    color: var(--white);
+}
+
+.link {
+    color: var(--white);
+    text-decoration: none;
+}

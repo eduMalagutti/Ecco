@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+}
+
+.header {
+    background: var(--green-800);
+    display: flex;
+    width: 100vw;
+    height: 101px;
+    flex-direction: row;
+}
+
+.header img {
+    width: 109px;
+    height: 69px;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    margin-left: 68px;
+}
+
+.boxtext {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.list {
+    color: var(--white);
+}
+
+.text {
+    color: var(--white);
+    font-size: 13.33px;
+    font-weight: 400;
+    line-height: 18.15px;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+.boxicon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+.search {
+    color: var(--white); 
+}
+
+.bell {
+    color: var(--white);
+    margin-left: 35px;
+    margin-right: 68px;
+}
+
+.notLoggedIn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4rem 0;
+    align-items: center;
+}
+
+.contato{
+    color: white;
+    font-size: 1rem;
+}
+
+.login{
+    color: var(--white);
+    font-size: 1.25rem;
+    margin-right: 2rem;
+}
+
+.loginIcon{
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+    margin-left: 1rem !important;
+}
+
+.loginBox{
+    display: flex;
+    gap: 0px;
+}
+
+.bell:hover {
+    color: #E1E1E1;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: flex;
+    z-index: 1000;
+}
+
+.dropdown_child {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: -50px;
+}
+
+.dropdown_child button {
+    display: block;
+    width: 170px;
+    border: 0;
+    background-color: var(--white);
+}
+
+.dropdown:hover .dropdown_child {
+    display: block;
+}
+
+.dropdown_child button:hover {
+    background-color: #E1E1E1;
+    transition: 300ms;
+    transition-timing-function: ease-out;
+}
+
+.textbutton {
+    font-size: 13.33px;
+    font-weight: 400;
+    line-height: 18.15px;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    padding-right: 10px;
+    
+}
+
+.textbuttonDocumentos {
+    font-size: 13.33px;
+    font-weight: 400;
+    line-height: 18.15px;
+    text-align: center;
+    padding-right: 10px;
+}
+
+.buttonicon {
+    vertical-align: middle;
+}
+
+.button1 {
+    height: 40px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.button2 {
+    height: 73px;  
+}
+
+.button3 {
+    height: 73px;    
+}
+
+.button4 {
+    height: 73px;    
+}
+
+.button5 {
+    height: 73px;
+    border-radius: 0px 0px 16px 16px;
+}
+
+.dropdown_child2 {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: -50px;
+}
+
+.dropdown_child2 button {
+    display: block;
+    width: 216px;
+    border: 0;
+    background-color: var(--white);
+}
+
+.dropdown:hover .dropdown_child2 {
+    display: block;
+}
+
+.button6 {
+    height: 32px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.dropdown_child2 button:hover {
+    background-color: #E1E1E1;
+    transition: 300ms;
+    transition-timing-function: ease-out;
+}
+
+.button7 {
+    height: 32px;
+}
+
+.button8 {
+    height: 32px;
+}
+
+.button9 {
+    height: 32px;
+}
+
+.button10 {
+    height: 32px;
+    border-radius: 0px 0px 16px 16px;
+}
+
+.textbutton2 {
+    font-size: 13.33px;
+    font-weight: 400;
+    line-height: 18.15px;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    padding-right: 10px;
+    
+}
+
+.navlink{
+    text-decoration: none;
+    color: white;
+}

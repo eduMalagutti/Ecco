@@ -1,0 +1,24 @@
+.circlesWrapper{
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 30vh;
+    right: 0;
+}
+
+
+.circles{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.logo{
+    width: 35%;
+
+    position: absolute;
+    z-index: 999;
+}

@@ -1,0 +1,97 @@
+.body {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: linear-gradient( to bottom, #3A5A40, #263A2A);
+}
+
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.imagens {
+    margin-left: auto;
+}
+
+.circles {
+    margin-top: 155px;
+    position: relative;
+}
+
+.eccofolha {
+    position: absolute;
+    margin-top: 393px;
+    margin-left: -350px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.boxmeuperfil {
+    margin-top: 55px;
+    margin-left: 80px;
+    color: var(--tan);
+    display: flex;
+}
+
+.textmeuperfil {
+    font-size: 47.78px;
+    font-weight: 400;
+    line-height: 65.07px;
+}
+
+.iconperson {
+    text-align: center;
+}
+
+.boxinputs {
+    margin-left: 230px;
+    margin-top: 44px;
+}
+
+.circlebox {
+    width: 130px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    border: 10px solid var(--green-300);
+    border-radius: 999px;
+    flex-direction: column;
+    color: var(--white);
+}
+
+.circlebox span {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 24px;
+    margin-left: -70px;
+}
+
+
+.botoesmenores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    width: 70%;
+}
+
+.navlink {
+    text-decoration: none;
+}

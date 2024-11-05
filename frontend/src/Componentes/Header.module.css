@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+}
+
+.header {
+    background: #3a5a40;
+    display: flex;
+    justify-content: center;
+}
+
+.header img {
+    width: 27.3125rem;
+    height: 14.0625rem;
+    left: 29.1875rem;
+
+}
+
+
+

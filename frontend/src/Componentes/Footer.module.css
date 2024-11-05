@@ -1,0 +1,56 @@
+.footer {
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left:0;
+    bottom:0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.row{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 3px; 
+    gap: 10px;
+}
+
+.sobre{
+    color: white;
+    text-decoration: none;
+    padding: 40px;
+    
+
+}
+
+.sobre:hover {
+    color: gray;
+}
+
+.termos{
+    color: white;
+    text-decoration: none;
+    padding: 40px;
+}
+
+.termos:hover {
+    color: gray;
+}
+
+

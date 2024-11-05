@@ -1,0 +1,19 @@
+services:
+  projeto_trainee:
+    container_name: projeto_trainee
+    image: postgres
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_DB=projeto_trainee
+  projeto_trainee-tests:
+    container_name: tests
+    image: postgres
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_DB=tests
+    ports:
+      - 5430:5432

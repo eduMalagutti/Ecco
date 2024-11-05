@@ -1,0 +1,58 @@
+.container {
+    width: 100%;
+    height: 100%;
+    margin-top: 7rem;
+    margin-left: 5rem;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #FEFAE0;
+    font-family: 'Open Sans';
+    font-weight: 400px;
+
+
+
+
+
+
+}
+.p{
+    margin-top: 1.8rem;
+    margin-left: 1.8rem;
+    color: white;
+    font-size: 1rem;
+}
+
+.containerList {
+    display: flex;
+    flex-direction: column;
+    gap: 2.8rem;
+    list-style: none;
+    margin-top: 8rem;
+    color: white;
+}
+
+.containerList li {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+}
+
+.button{
+    margin-top: 8rem;
+    align-items: center;
+    width: 19rem;
+    height: 3rem;
+    color:white;
+   
+}
+.textbutton{
+    font-size: 1.5rem;
+}
+
+.navlink {
+    text-decoration: none;
+}
