@@ -24,11 +24,11 @@ This project is only partially finished due to the trainee project deadline, may
 - **Renan Zago**
 
 ### Core Features
-- User authentication and role-based access control
-- Service provider profiles with verification system
-- Comprehensive service listing and search functionality
-- Reservation management with status tracking
-- Review and rating system for service quality assurance
+
+- **User Registration and Authentication**: Allows new users to create accounts and returning users to log in securely.
+- **Service Search and Discovery**: Users can browse and search for available services, filtered by categories.
+- **Reservation Management**: Enables users to book services, view upcoming reservations, and manage past bookings.
+- **User Review System**: Allows customers to rate and review services after completion to ensure quality and reliability.
 
 ## Stack
 - Java 17
@@ -120,10 +120,9 @@ http://localhost:8080/swagger-ui.html
 ### Core Features
 
 - **User Registration and Authentication**: Allows new users to create accounts and returning users to log in securely.
-- **Service Search and Discovery**: Users can browse and search for available services, filtered by categories and location.
-- **Reservation Management**: Enables users to book services, view upcoming reservations, and manage past bookings.
-- **User Review System**: Allows customers to rate and review services after completion to ensure quality and reliability.
-- **Responsive Design**: Designed for optimal use on both desktop and mobile devices.
+- **Service Search and Discovery**: Users can browse and search for available services, filtered by categories. (planned)
+- **Reservation Management**: Enables users to book services, view upcoming reservations, and manage past bookings. (planned)
+- **User Review System**: Allows customers to rate and review services after completion to ensure quality and reliability. (planned)
 
 ### Stack
 
@@ -155,8 +154,6 @@ http://localhost:8080/swagger-ui.html
 ---
 
 ## Images
-
-### Screenshots
 
 ![alt text](<./screenshots/Captura de tela 2024-11-04 005038.png>) ![alt text](<./screenshots/Captura de tela 2024-11-05 000521.png>) ![alt text](<./screenshots/Captura de tela 2024-11-05 000630.png>)
 
