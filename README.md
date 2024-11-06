@@ -7,7 +7,7 @@ ECCO is a comprehensive marketplace platform that connects homeowners and indivi
 
 ### Disclaimer
 
-This project is only partially finished due to the trainee project deadline, maybe it will be finished later. The backend is finished, the frontend is lacking some pages.
+This project is only partially finished due to the trainee project deadline, it might be finished later. The backend is finished, the frontend still has work to be done.
 
 ## Project Structure
 
@@ -18,8 +18,8 @@ This project is only partially finished due to the trainee project deadline, may
 
 ### Authors
 
-- **Eduardo Souza Malagutti**
-- **Renan Zago**
+- [eduMalagutti](https://github.com/eduMalagutti)
+- [RenanZago](https://github.com/RenanZago)
 
 ### Core Features
 
@@ -111,9 +111,9 @@ http://localhost:8080/swagger-ui.html
 
 ### Authors
 
-- Heitor
-- Lucas
-- Nicolas
+- [heitorvf19](http://github.com/heitorvf19)
+- [lucasmd30](http://github.com/lucasmd30)
+- [n-qber](https://github.com/n-qber)
 
 ### Core Features
 
