@@ -7,7 +7,7 @@ ECCO is a comprehensive marketplace platform that connects homeowners and indivi
 
 ### Disclaimer
 
-This project is only partially finished due to the trainee project deadline, it might be finished later. The backend is finished, the frontend still has work to be done.
+This project is only partially finished due to the trainee project deadline, it might be finished later. The backend is complete, the frontend still has work to be done.
 
 ## Project Structure
 
