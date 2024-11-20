@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
-import { Botao } from "../../Componentes/Botao";
-import { Header } from "../../Componentes/Header";
+import { Botao } from "../../Componentes/Botao/Botao.tsx";
+import { Header } from "../../Componentes/Header/Header.tsx";
 import styles from './VerificacaoEmail.module.css'
 
 export function VerificacaoEmail () {

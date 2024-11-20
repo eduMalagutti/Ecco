@@ -1,9 +1,9 @@
-import { Header } from '../../Componentes/Header'
-import { Footer } from '../../Componentes/Footer'
-import { Botao } from '../../Componentes/Botao'
+import { Header } from '../../Componentes/Header/Header.tsx'
+import { Footer } from '../../Componentes/Footer/Footer.tsx'
+import { Botao } from '../../Componentes/Botao/Botao.tsx'
 import styles from '../cadastro/Cadastro.module.css'
 import { useState } from 'react'
-import { Input } from '../../Componentes/Input'
+import { Input } from '../../Componentes/Input/Input.tsx'
 import api from '../../lib/api';
 import { useNavigate } from "react-router-dom";
 

@@ -1,8 +1,8 @@
 import { NavLink } from "react-router-dom";
-import { Botao } from "../../Componentes/Botao";
-import { Header } from "../../Componentes/Header";
+import { Botao } from "../../Componentes/Botao/Botao.tsx";
+import { Header } from "../../Componentes/Header/Header.tsx";
 import styles from "./VerificacaoCadastro.module.css"
-import { Footer } from "../../Componentes/Footer";
+import { Footer } from "../../Componentes/Footer/Footer.tsx";
 
 export function VerificacaoCadastro () {
     return (

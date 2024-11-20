@@ -1,11 +1,11 @@
-import { Header2 } from '../../Componentes/Header2'
+import { Header2 } from '../../Componentes/Header2/Header2.tsx'
 import styles from './MeuPerfil.module.css'
 import Circles from '../../assets/Image-Circles.svg'
 import LogoEccoFolha from '../../assets/Logo-EccoComFolha.svg'
-import { Footer } from '../../Componentes/Footer'
+import { Footer } from '../../Componentes/Footer/Footer.tsx'
 import { BsPersonFill, BsCardText, BsPencil} from "react-icons/bs";
 import { AiOutlineLogout, AiOutlineWarning} from "react-icons/ai";
-import { Botao } from '../../Componentes/Botao'
+import { Botao } from '../../Componentes/Botao/Botao.tsx'
 import { NavLink } from 'react-router-dom'
 
 export function MeuPerfil () {

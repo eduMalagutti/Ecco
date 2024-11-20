@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { Header } from "../../Componentes/Header";
-import { Input } from "../../Componentes/Input";
+import { Header } from "../../Componentes/Header/Header.tsx";
+import { Input } from "../../Componentes/Input/Input.tsx";
 import styles from "./MudarSenha.module.css"
-import { Botao } from "../../Componentes/Botao";
-import { Footer } from "../../Componentes/Footer";
+import { Botao } from "../../Componentes/Botao/Botao.tsx";
+import { Footer } from "../../Componentes/Footer/Footer.tsx";
 import { useNavigate } from "react-router-dom";
 import { passwordRegex } from "../../lib/utils";
 import api from "../../lib/api";
