@@ -13,7 +13,7 @@ export function MeuPerfil () {
 return (
     <body className={styles.body}>
         <header>
-            <Header2 loggedIn/>
+            <Header2 />
         </header>
         <main className={styles.main}>
             <div className={styles.imagens}>

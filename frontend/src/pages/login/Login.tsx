@@ -1,4 +1,4 @@
-import styles from '../login/Login.module.css'
+import styles from './Login.module.css'
 import { Header } from '../../Componentes/Header/Header.tsx'
 import { Input } from '../../Componentes/Input/Input.tsx'
 import { Botao } from '../../Componentes/Botao/Botao.tsx'
