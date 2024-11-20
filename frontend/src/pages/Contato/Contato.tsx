@@ -1,8 +1,8 @@
 import { BsEnvelope, BsFacebook, BsInstagram, BsTelephone } from 'react-icons/bs'
 import styles from './Contato.module.css'
 import { AiOutlineMail } from 'react-icons/ai'
-import { Botao } from '../../Componentes/Botao'
-import { Background_MiddleCircle } from '../../Componentes/Background_MiddleCircle'
+import { Botao } from '../../Componentes/Botao/Botao.tsx'
+import { Background_MiddleCircle } from '../../Componentes/BackgroundMiddleCircle/Background_MiddleCircle.tsx'
 import { NavLink } from 'react-router-dom'
 
 export function Contato(){

@@ -1,4 +1,4 @@
-import { Header2 } from './Componentes/Header2'
+import { Header2 } from './Componentes/Header2/Header2.tsx'
 import './global.css'
 
 

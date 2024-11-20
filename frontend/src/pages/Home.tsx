@@ -1,6 +1,6 @@
-import { Header2 } from '../Componentes/Header2'
-import { EccoCircle } from '../Componentes/EccoCircle';
-import { Botao } from '../Componentes/Botao';
+import { Header2 } from '../Componentes/Header2/Header2.tsx'
+import { EccoCircle } from '../Componentes/EccoCircle/EccoCircle.tsx';
+import { Botao } from '../Componentes/Botao/Botao.tsx';
 import styles from './Home.module.css'
 
 import Limpeza from '../assets/limpeza.png';

@@ -1,5 +1,5 @@
-import FolderIcon from "../assets/folder-icon.svg";
-import { Botao } from './Botao';
+import FolderIcon from "../../assets/folder-icon.svg";
+import { Botao } from '../Botao/Botao.tsx';
 import styles from './FileUpload.module.css';
 import { createRef } from 'react';
 

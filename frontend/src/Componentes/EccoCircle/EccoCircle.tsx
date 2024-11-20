@@ -1,6 +1,6 @@
 import styles from './EccoCircle.module.css';
-import LogoEcco from '../assets/Logo-EccoComFolha.svg';
-import Circles from '../assets/Circles.svg';
+import LogoEcco from '../../assets/Logo-EccoComFolha.svg';
+import Circles from '../../assets/Circles.svg';
 
 
 export function EccoCircle(){

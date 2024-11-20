@@ -1,14 +1,14 @@
 import styles from './Header2.module.css'
-import logoFolha from '../assets/Logo-Folha.svg'
-import LoginIcon from '../assets/Login-Icon.svg';
+import logoFolha from '../../assets/Logo-Folha.svg'
+import LoginIcon from '../../assets/Login-Icon.svg';
 import { BsList, BsSearch, BsBell, BsXCircle, BsPip, BsStarFill, BsCheck, BsPersonFill, BsChat, BsHammer } from 'react-icons/bs';
 import { AiTwotoneTool, AiOutlineLogout } from "react-icons/ai";
-import '../global.css'
+import '../../global.css'
 import { useNavigate } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 
 
-import { validToken } from '../lib/utils';
+import { validToken } from '../../lib/utils.ts';
 
 
 export function Header2() {

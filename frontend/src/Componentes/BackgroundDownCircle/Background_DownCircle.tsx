@@ -1,6 +1,6 @@
 import styles from './Background_DownCircle.module.css'
-import { Header2 } from './Header2';
-import Circles from '../assets/Image-Circles.svg'
+import { Header2 } from '../Header2/Header2.tsx';
+import Circles from '../../assets/Image-Circles.svg'
 
 interface PropsBackground_DownCircle {
     children?: React.ReactNode

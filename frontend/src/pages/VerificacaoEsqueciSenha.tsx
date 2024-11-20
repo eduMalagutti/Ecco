@@ -1,7 +1,7 @@
 // import { Input } from '../Componentes/Input.tsx';
-import { Botao } from '../Componentes/Botao';
-import { VistaPageComponent } from '../Componentes/VistaPageComponent';
-import { Input } from '../Componentes/Input';
+import { Botao } from '../Componentes/Botao/Botao.tsx';
+import { VistaPageComponent } from '../Componentes/VistaPageComponent/VistaPageComponent.tsx';
+import { Input } from '../Componentes/Input/Input.tsx';
 import styles from './VerificacaoEsqueciSenha.module.css'
 
 import { useRef, useState } from 'react';

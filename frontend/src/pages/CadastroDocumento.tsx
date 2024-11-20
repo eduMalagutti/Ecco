@@ -1,11 +1,11 @@
-import { DocumentSelector } from "../Componentes/DocumentSelector";
-import { FileUpload } from "../Componentes/FileUpload";
-import { Botao } from "../Componentes/Botao";
+import { DocumentSelector } from "../Componentes/DocumentSelector/DocumentSelector.tsx";
+import { FileUpload } from "../Componentes/FileUpload/FileUpload.tsx";
+import { Botao } from "../Componentes/Botao/Botao.tsx";
 import { useState } from "react";
 import styles from './CadastroDocumento.module.css';
 
-import { Header } from "../Componentes/Header";
-import { Footer } from "../Componentes/Footer";
+import { Header } from "../Componentes/Header/Header.tsx";
+import { Footer } from "../Componentes/Footer/Footer.tsx";
 
 
 export function CadastroDocumento(){

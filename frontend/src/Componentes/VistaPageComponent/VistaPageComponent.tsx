@@ -1,5 +1,5 @@
-import { Header } from "./Header";
-import { Footer } from "./Footer";
+import { Header } from "../Header/Header.tsx";
+import { Footer } from "../Footer/Footer.tsx";
 import styles from './VistaPageComponent.module.css';
 
 

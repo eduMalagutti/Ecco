@@ -1,9 +1,9 @@
 import { useNavigate } from "react-router-dom";
 
-import { Header } from "../Componentes/Header";
-import { Footer } from "../Componentes/Footer";
-import { Input } from "../Componentes/Input";
-import { Botao } from "../Componentes/Botao";
+import { Header } from "../Componentes/Header/Header.tsx";
+import { Footer } from "../Componentes/Footer/Footer.tsx";
+import { Input } from "../Componentes/Input/Input.tsx";
+import { Botao } from "../Componentes/Botao/Botao.tsx";
 
 import { useState } from 'react';
 

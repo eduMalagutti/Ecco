@@ -1,7 +1,7 @@
 import styles from './Background_MiddleCircle.module.css'
-import { Header2 } from './Header2';
-import Circles from '../assets/Circles.svg'
-import { Footer } from './Footer';
+import { Header2 } from '../Header2/Header2.tsx';
+import Circles from '../../assets/Circles.svg'
+import { Footer } from '../Footer/Footer.tsx';
 
 interface PropsBackground_MiddleCircle {
     children?: React.ReactNode

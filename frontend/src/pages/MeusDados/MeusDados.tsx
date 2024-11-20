@@ -1,11 +1,11 @@
 import { useState } from "react";
-import { Header } from "../../Componentes/Header";
-import { Input } from "../../Componentes/Input";
+import { Header } from "../../Componentes/Header/Header.tsx";
+import { Input } from "../../Componentes/Input/Input.tsx";
 import styles from './MeusDados.module.css'
 import { BsPerson } from 'react-icons/bs'
-import { Botao } from "../../Componentes/Botao";
+import { Botao } from "../../Componentes/Botao/Botao.tsx";
 import { NavLink } from "react-router-dom";
-import { Footer } from "../../Componentes/Footer";
+import { Footer } from "../../Componentes/Footer/Footer.tsx";
 
 
 export function MeusDados () {
