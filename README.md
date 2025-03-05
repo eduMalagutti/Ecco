@@ -1,4 +1,3 @@
-
 # ECCO
 
 ### Description
@@ -23,12 +22,14 @@ This project is only partially finished due to the trainee project deadline, it 
 
 ### Core Features
 
-- **User Registration and Authentication**: Allows new users to create accounts and returning users to log in securely.
-- **Service Search and Discovery**: Users can browse and search for available services, filtered by categories.
-- **Reservation Management**: Enables users to book services, view upcoming reservations, and manage past bookings.
-- **User Review System**: Allows customers to rate and review services after completion to ensure quality and reliability.
+- User authentication and role-based access control
+- Service provider profiles with verification system
+- Comprehensive service listing and search functionality
+- Reservation management with status tracking
+- Review and rating system for service quality assurance
 
 ### Stack
+
 - Java 17
 - Spring Boot 3.3.0
 - Spring Security + JWT
@@ -40,45 +41,53 @@ This project is only partially finished due to the trainee project deadline, it 
 - Lombok
 - Spring HATEOAS
 
-## Installation
-
 ### Requirements
+
 - JDK 17
 - Maven
-- PostgreSQL
+- Docker
 - SMTP Server (Gmail)
 
-### Cloning the Repository
+### Installation
+
+#### Cloning the Repository
+
 ```bash
-git clone https://gitlab.com/cati-jr/trainees-2024/squad-2/backend.git
-cd backend
+git clone https://github.com/eduMalagutti/Ecco.git
+cd Ecco/backend
 ```
 
-### Environment Setup
-1. Create an `env-dev.properties` file in the project root with the following variables:
+#### Environment Setup
+
+- Create an `env-dev.properties` file in the project root with the following variables:
+
 ```properties
 API_PORT=8080
 JWT_SECRET=your_jwt_secret
-DB_URL=localhost:5432/database_name
-DB_USER=your_db_user
-DB_PASSWORD=your_db_password
+DB_URL=localhost:5432/projeto-trainee
+DB_USER=admin
+DB_PASSWORD=admin
 EMAIL_SENDER=your_email@gmail.com
 EMAIL_USER=your_email_user
 EMAIL_PASSWORD=your_email_password
 ```
 
-2. Configure the `application.properties` file:
-```properties
-spring.config.import=./env-dev.properties
-spring.profiles.active=dev
-spring.application.name=trainee_project
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
-spring.jpa.hibernate.ddl-auto=validate
-spring.flyway.enabled=true
+#### Building the Database Docker Image
+
+```bash
+docker compose up -d
 ```
 
-## Main Endpoints
-### Users (`/v1/users`)
+#### Running the Application
+
+```bash
+mvn spring-boot:run
+```
+
+### Main Endpoints
+
+#### Users (`/v1/users`)
+
 - `POST /signup` - User registration
 - `POST /login` - User login
 - `GET /attributes` - Get user attributes
@@ -86,13 +95,15 @@ spring.flyway.enabled=true
 - `PATCH /update/profile-pic` - Update profile picture
 - `PATCH /verify-profile` - Verify user profile
 
-### Services (`/v1/services`)
+#### Services (`/v1/services`)
+
 - `GET /paged-search` - Paginated service search
 - `POST /create` - Create new service
 - `GET /{id}` - Get specific service
 - `DELETE /delete/{id}` - Delete service
 
-### Reservations (`/v1/reservations`)
+#### Reservations (`/v1/reservations`)
+
 - `POST /create` - Create reservation
 - `GET /{id}` - Get reservation
 - `PATCH /accept-reservation` - Accept reservation
@@ -101,8 +112,10 @@ spring.flyway.enabled=true
 - `PATCH /review-reservation-customer` - Review customer
 - `PATCH /review-reservation-provider` - Review service provider
 
-## Documentation
+### Documentation
+
 Complete API documentation is available through Swagger UI:
+
 ```
 http://localhost:8080/swagger-ui.html
 ```
@@ -117,10 +130,10 @@ http://localhost:8080/swagger-ui.html
 
 ### Core Features
 
-- **User Registration and Authentication**: Allows new users to create accounts and returning users to log in securely.
-- **Service Search and Discovery**: Users can browse and search for available services, filtered by categories. (planned)
-- **Reservation Management**: Enables users to book services, view upcoming reservations, and manage past bookings. (planned)
-- **User Review System**: Allows customers to rate and review services after completion to ensure quality and reliability. (planned)
+- **User Registration and Authentication**
+- **Service Search and Discovery**: (planned)
+- **Reservation Management**: (planned)
+- **User Review System**: (planned)
 
 ### Stack
 
@@ -134,12 +147,14 @@ http://localhost:8080/swagger-ui.html
 ### Setup
 
 1. **Clone the Repository**:
+
    ```bash
-   git clone https://gitlab.com/cati-jr/trainees-2024/squad-2/frontend.git
-   cd frontend
+   git clone https://github.com/eduMalagutti/Ecco.git
+   cd Ecco/frontend
    ```
 
 2. **Install Dependencies**:
+
    ```bash
    npm install
    ```
