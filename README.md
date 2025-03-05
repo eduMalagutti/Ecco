@@ -54,6 +54,8 @@ This project is only partially finished due to the trainee project deadline, it 
 
 ```bash
 git clone https://github.com/eduMalagutti/Ecco.git
+```
+```bash
 cd Ecco/backend
 ```
 
@@ -150,6 +152,8 @@ http://localhost:8080/swagger-ui.html
 
    ```bash
    git clone https://github.com/eduMalagutti/Ecco.git
+   ```
+   ```bash
    cd Ecco/frontend
    ```
 
