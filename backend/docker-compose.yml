@@ -1,16 +1,17 @@
 services:
-  projeto_trainee:
-    container_name: projeto_trainee
-    image: postgres
+  projeto-trainee:
+    container_name: projeto-trainee-db
+    image: 'postgres:16.0-alpine3.18'
     ports:
       - 5432:5432
     environment:
       - POSTGRES_USER=admin
       - POSTGRES_PASSWORD=admin
-      - POSTGRES_DB=projeto_trainee
-  projeto_trainee-tests:
-    container_name: tests
-    image: postgres
+      - POSTGRES_DB=projeto-trainee
+
+  projeto-trainee-tests:
+    container_name: projeto-trainee-db-tests
+    image: 'postgres:16.0-alpine3.18'
     environment:
       - POSTGRES_USER=admin
       - POSTGRES_PASSWORD=admin

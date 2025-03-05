@@ -23,9 +23,11 @@ public class SecurityFilter extends OncePerRequestFilter {
     JWTProvider jwtProvider;
 
     @Override
-    protected void doFilterInternal(@NonNull HttpServletRequest request, @NonNull HttpServletResponse response,
-            @NonNull FilterChain filterChain)
-            throws ServletException, IOException {
+    protected void doFilterInternal(
+            @NonNull HttpServletRequest request,
+            @NonNull HttpServletResponse response,
+            @NonNull FilterChain filterChain
+    ) throws ServletException, IOException {
 
         SecurityContextHolder.getContext().setAuthentication(null);
 

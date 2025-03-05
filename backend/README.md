@@ -1,12 +1,12 @@
 # Ecco Backend
 ## Description
-The Ecco Backend is a REST API developed as a trainee project for Cati Jr in 2024. It serves as the backend infrastructure for the Ecco platform, a comprehensive marketplace that connects homeowners and individuals seeking household services with qualified service providers and professionals.
+The Ecco Backend is a REST API developed as a trainee project for Cati Jr in 2024. It serves as the backend infrastructure for the Ecco platform, 
+a comprehensive marketplace that connects homeowners and individuals seeking household services with qualified service providers and professionals.
 
-### Purpose
-- **Service Marketplace**: Facilitates the connection between service providers (such as plumbers, electricians, cleaners, etc.) and customers requiring household services
-- **Quality Assurance**: Implements verification systems for service providers to ensure reliable and trustworthy service delivery
-- **Seamless Booking**: Manages the complete service booking lifecycle, from initial request to completion and review
-- **Trust Building**: Features a robust review and rating system for both service providers and customers
+## Authors
+
+- [eduMalagutti](https://github.com/eduMalagutti)
+- [RenanZago](https://github.com/RenanZago)
 
 ### Core Features
 - User authentication and role-based access control
@@ -14,9 +14,6 @@ The Ecco Backend is a REST API developed as a trainee project for Cati Jr in 202
 - Comprehensive service listing and search functionality
 - Reservation management with status tracking
 - Review and rating system for service quality assurance
-- Secure payment integration (planned)
-
-The project is built using Spring Boot and incorporates modern security practices, and authentication.
 
 ## Stack
 - Java 17
@@ -33,37 +30,37 @@ The project is built using Spring Boot and incorporates modern security practice
 ## Requirements
 - JDK 17
 - Maven
-- PostgreSQL
+- Docker
 - SMTP Server (Gmail)
 
 ## Installation
 ### Cloning the Repository
 ```bash
-git clone https://gitlab.com/cati-jr/trainees-2024/squad-2/backend.git
-cd backend
+git clone https://github.com/eduMalagutti/Ecco.git
+cd Ecco/backend
 ```
 
 ### Environment Setup
-1. Create an `env-dev.properties` file in the project root with the following variables:
+- Create an `env-dev.properties` file in the project root with the following variables:
 ```properties
 API_PORT=8080
 JWT_SECRET=your_jwt_secret
-DB_URL=localhost:5432/database_name
-DB_USER=your_db_user
-DB_PASSWORD=your_db_password
+DB_URL=localhost:5432/projeto-trainee
+DB_USER=admin
+DB_PASSWORD=admin
 EMAIL_SENDER=your_email@gmail.com
 EMAIL_USER=your_email_user
 EMAIL_PASSWORD=your_email_password
 ```
 
-2. Configure the `application.properties` file:
-```properties
-spring.config.import=./env-dev.properties
-spring.profiles.active=dev
-spring.application.name=trainee_project
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
-spring.jpa.hibernate.ddl-auto=validate
-spring.flyway.enabled=true
+### Building the Database Docker Image
+```bash
+docker compose up -d
+```
+
+### Running the Application
+```bash
+mvn spring-boot:run
 ```
 
 ## Main Endpoints
@@ -95,7 +92,3 @@ Complete API documentation is available through Swagger UI:
 ```
 http://localhost:8080/swagger-ui.html
 ```
-
-## Authors
-- Eduardo Souza Malagutti
-- Renan Zago

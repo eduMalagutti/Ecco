@@ -117,16 +117,16 @@ public class UserController {
 
     // UPDATE ATTRIBUTES
     @PutMapping ("/update/attributes")
-    public ResponseEntity<Map<String, ?>> updateUserAttributes(@Nullable @RequestHeader ("Authorization") String token, @Valid @RequestBody UpdateUserRequestDTO userDetails) {
+    public ResponseEntity<Map<String, Object>> updateUserAttributes(@Nullable @RequestHeader ("Authorization") String token, @Valid @RequestBody UpdateUserRequestDTO userDetails) {
 
-        Map<String, ?> modifiedFields = updateUserService.execute(token, userDetails);
+        Map<String, Object> modifiedFields = updateUserService.execute(token, userDetails);
 
         return ResponseEntity.status(HttpStatus.OK).body(modifiedFields);
     }
 
     // UPDATE PROFILE PICTURE
     @PatchMapping (path = "/update/profile-pic", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
-    public ResponseEntity<?> updateUserPic(@Nullable @RequestHeader ("Authorization") String token, @RequestBody MultipartFile newPic) {
+    public ResponseEntity<Void> updateUserPic(@Nullable @RequestHeader ("Authorization") String token, @RequestBody MultipartFile newPic) {
 
         updateUserProfilePicService.execute(token, newPic);
 
@@ -135,7 +135,7 @@ public class UserController {
 
     // SEND FORGOT PASSWORD EMAIL
     @PatchMapping ("/forgot-password")
-    public ResponseEntity<?> sendForgotPasswordEmail(@PathParam ("email") String email) {
+    public ResponseEntity<Void> sendForgotPasswordEmail(@PathParam ("email") String email) {
 
         forgotPasswordService.sendEmail(new ForgotPasswordRequestDTO(email));
 
@@ -182,7 +182,7 @@ public class UserController {
 
     // DELETE USER
     @DeleteMapping ("/delete")
-    public ResponseEntity<?> deleteUser(@Nullable @RequestHeader ("Authorization") String token) {
+    public ResponseEntity<Void> deleteUser(@Nullable @RequestHeader ("Authorization") String token) {
         deleteUserService.delete(token);
         return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
     }

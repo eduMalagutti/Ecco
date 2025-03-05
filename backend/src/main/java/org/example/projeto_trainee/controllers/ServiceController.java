@@ -55,7 +55,7 @@ public class ServiceController {
     }
 
     @DeleteMapping ("delete/{id}")
-    public ResponseEntity<?> deleteService(@PathVariable UUID id) {
+    public ResponseEntity<Void> deleteService(@PathVariable UUID id) {
         deleteServiceEntityService.delete(id);
         return ResponseEntity.noContent().build();
     }
