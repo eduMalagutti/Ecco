@@ -4,7 +4,7 @@
 
 ECCO is a comprehensive marketplace platform that connects homeowners and individuals seeking household services with qualified service providers. Developed as a trainee project for Cati Jr in 2024, ECCO aims to facilitate reliable and seamless service booking and management between service providers (such as plumbers, electricians, cleaners) and customers in need of household services.
 
-### Disclaimer
+### Disclaimer!!
 
 This project is only partially finished due to the trainee project deadline, it might be finished later. The backend is complete, the frontend still has work to be done.
 
