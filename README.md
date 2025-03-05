@@ -30,16 +30,16 @@ This project is only partially finished due to the trainee project deadline, it 
 
 ### Stack
 
-- Java 17
-- Spring Boot 3.3.0
-- Spring Security + JWT
-- Spring Data JPA
-- PostgreSQL
-- Flyway for Migrations
-- SpringDoc OpenAPI (Swagger)
-- Spring Mail
-- Lombok
-- Spring HATEOAS
+- **Java 17**
+- **Spring Boot 3.3.0**
+- **Spring Security + JWT**
+- **Spring Data JPA**
+- **PostgreSQL**
+- **Flyway**
+- **SpringDoc OpenAPI (Swagger)**
+- **Spring Mail**
+- **Lombok**
+- **Spring HATEOAS**
 
 ### Requirements
 
@@ -140,11 +140,10 @@ http://localhost:8080/swagger-ui.html
 ### Stack
 
 - **React 18.3.1**
-- **TypeScript**: Provides static typing for safer and more predictable code.
-- **Vite**: Used as the build tool for faster development and optimized production builds.
-- **React Router**: Handles client-side routing within the application.
-- **Axios**: For HTTP requests to communicate with the backend API.
-- **JWT Decode**: Decodes JWT tokens for authentication management on the client side.
+- **TypeScript**
+- **Vite**
+- **React Router**
+- **Axios**
 
 ### Setup
 
