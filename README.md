@@ -13,6 +13,10 @@ This project is only partially finished due to the trainee project deadline, it 
 - **backend**: REST API developed with Spring Boot, providing server-side logic, API routes, and data processing.
 - **frontend**: React-based application that delivers a user-friendly interface for customers and service providers.
 
+## Figma
+
+- https://www.figma.com/design/F5bZSFNEkdl4ck008wi50A/UI-Design?node-id=48-14&t=jLvDeygRpFiubwIR-1
+
 ## Backend
 
 ### Authors
